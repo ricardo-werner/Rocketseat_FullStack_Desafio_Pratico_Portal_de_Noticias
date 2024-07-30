@@ -54,3 +54,15 @@ h1, h2, h3 {
 img {
   max-width: 100%;
 }
+
+.content-tag {
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font: 500 0.75rem/120% var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+  color: var(--text-color-primary);
+  box-shadow: 0rem 0.25rem 1rem rgba(2, 6, 23, 0.251);
+}
